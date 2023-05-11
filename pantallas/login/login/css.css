@@ -22,7 +22,7 @@
 }
 
 .container .right {
-    background-image: url("/imagenes/barber.jpeg");
+    background-image: url("../../../imagenes/barber.jpeg");
     background-size: cover;
 
 }
