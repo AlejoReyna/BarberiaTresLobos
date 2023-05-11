@@ -3,7 +3,7 @@
 class Usuario{
     
     private $name;
-    private $lasName;
+    private $lastName;
     private $email;
     private $password;
     
@@ -13,7 +13,7 @@ class Usuario{
     }
 
     public function getLastName(){
-        return $this->lasName;
+        return $this->lastName;
     }
     
     public function getEmail(){
@@ -30,8 +30,8 @@ class Usuario{
         $this->name = $name;
     }
 
-    public function setLasName($lasName){
-        $this->lasName = $lasName;
+    public function setLastName($lastName){
+        $this->lastName = $lastName;
     }
 
     public function setEmail($email){
@@ -40,6 +40,10 @@ class Usuario{
 
     public function setPassword($password){
         $this->password = $password;
+    }
+
+    public function save(){
+        // aqui se hara una consulta a la base de datos
     }
 
 }
