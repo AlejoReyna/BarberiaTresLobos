@@ -26,4 +26,15 @@ class UsuarioController{
 
     }
 
+    public function login(){
+        $userName = $_POST['userName'];
+        $password = $_POST['password'];
+
+        $login = new Usuario();
+        $login->setName($userName);
+        $login->setPassword($password);
+        $login->login();
+
+    }
+
 }

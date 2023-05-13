@@ -1,4 +1,5 @@
 <?php
+require_once 'config.php';
 
 class Usuario{
     
@@ -44,6 +45,10 @@ class Usuario{
 
     public function save(){
         // aqui se hara una consulta a la base de datos
+    }
+
+    public function login(){
+        // metodo para validar el login
     }
 
 }
