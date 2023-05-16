@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Zona Navbar: Copiar y pegar este CSS dentro de TODAS las ventanas */
+.navbar {
+    background-color: black;
+    height: 70px;
+}
+
+.logo {
+    margin-right: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 1%;
+} 
+
+.navbar-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-items li{
+    color: white;
+    display: inline-block;
+    margin: 0 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Zona Navbar: Copiar y pegar este CSS dentro de TODAS las ventanas */
+
+.container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container .left {
+    background-color: rgb(0, 0, 0);
+    height: 968px;
+    width: 100%; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-logo {
+    width: 200px;
+
+}
+
+.container .right {
+    background-image: url("./Imagenes/Beardguy.jpg");
+    background-size: cover;
+
+}
+
+.logo li {
+    display: flex;
+    align-items: center;
+}
+
+.text-logo {
+    color: rgba(255, 252, 252, 0.788);
+    margin-top: 10px;
+    margin-left: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+
+
+span .text-logo {
+    font-size: 100px;
+}
+
+.subtext-logo {
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgba(255, 252, 252, 0.568);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.text-logo {
+    font-size: 18px;
+}
+
+.left .form-container {
+    margin-top: 10%;
+    font-size: 20px;
+    border: 10px solid rgba(97, 97, 97, 0.61);
+    padding: 50px;
+    width: 65%;
+    background-color: rgb(165, 165, 164);
+    margin-left: 80px;
+    border-radius: 20px;
+    height: 40%;
+}
+

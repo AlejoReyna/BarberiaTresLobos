@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Inicio de sesión </title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<!-- Zona Navbar: Copiar y pegar este código dentro de TODAS las ventanas -->
+<nav class="navbar">
+
+    <ul class="navbar-items">
+        
+        <!-- Tres Lobos se mira tres veces, hay que dejar
+        solo una -->
+        <div class="logo">
+            <li> <a> <span class="bebas"> Tres Lobos </span> </a> </li>
+        </div>
+
+        <div class="user-buttons">
+            <li> <a href="../Registrarse/registro.html">  Registrarse  </a> </li> <!-- PTM YA PUDE ARREGLAR LA RUTA DESPUES DE 2 HORAS-->
+            <li> <a href="../IniciarSesion/login.html">  Iniciar sesión  </a> </li>
+        </div>
+        
+
+    </ul>
+
+</nav>
+<!-- Zona Navbar: Copiar y pegar este código dentro de TODAS las ventanas -->
+
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+            <span> 
+                <div class="logo">
+                    <ul>
+                        <li > 
+                            <img id="img-logo" src="./Imagenes/treslobos.png" alt="Logo de tijeras" > 
+                            <span class="text-logo"> Tres lobos </span> 
+                        </li>
+                        
+                        <hr>
+                        <li> <span class="subtext-logo"> Elegancia. Porte. Estilo. </span> </li>
+                    </ul>
+                </div>
+            </span>
+
+            <div class="form-container">
+                <form class="login" action=""> 
+                    <legend> Ingresa a tu cuenta </legend>
+                    <hr>
+                    <br>
+                        <div>
+                            <label for="email"> Correo electrónico </label>
+                            <br>
+                            <input type="email" id="username" name="username">
+                        </div>
+    
+                        <div>
+                            <label for="password"> Contraseña </label>
+                            <br>
+                            <input type="password" id="password" name="password">
+                        </div>
+
+                        <input type="submit" value="Enviar">
+
+                        <div>
+                            <p> ¿No estás registrado aún? <a href="../Registrarse/registro.html"> ¡Haz clíck aquí! </a></p>
+                        </div>
+                </form>
+            </div>
+
+        </div>
+                                                        
+        <div class="right">
+            <span> 
+                <p> Derecha </p>            
+            </span>         
+        </div>              
+
+
+    </div>
+    
+</body>
+
+</html>

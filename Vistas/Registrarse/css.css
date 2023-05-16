@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Zona Navbar: Copiar y pegar este CSS dentro de TODAS las ventanas */
+.navbar {
+    background-color: black;
+    height: 70px;
+}
+
+.logo {
+    margin-right: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 1%;
+} 
+
+.navbar-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-items li{
+    color: white;
+    display: inline-block;
+    margin: 0 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Zona Navbar: Copiar y pegar este CSS dentro de TODAS las ventanas */
+
+body {
+    background-image: url("./Imagenes/rsz_barber3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    margin-right: 25%;
+    margin-left: 25%;
+    
+
+    
+}
+
+.josefin {
+
+    font-family: 'Josefin Slab', serif;
+    
+}
+
+.header {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 30px;
+}
+
+.header h4 {
+    font-family: 'Josefin Slab', serif;
+}
+
+.field {
+    padding: 50px;
+}

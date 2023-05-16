@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Zona Navbar: Copiar y pegar este CSS dentro de TODAS las ventanas */
+.navbar {
+    background-color: black;
+    height: 70px;
+}
+
+.logo {
+    margin-right: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 1%;
+} 
+
+.navbar-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-items li{
+    color: white;
+    display: inline-block;
+    margin: 0 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Zona Navbar: Copiar y pegar este CSS dentro de TODAS las ventanas */
+
+body {
+    background-image: url("./Imagenes/wood4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cart-container {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    margin-right: 25%;
+    margin-left: 25%;
+
+}
+
+.item {
+    margin: 30px;
+    background-color: gray;
+    border-radius: 3px;
+    height: 150px;
+}
