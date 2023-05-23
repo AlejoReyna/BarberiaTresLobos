@@ -23,30 +23,30 @@
 
                 <div>
                     <br>
-                    <label for="nombre" class="josefin"> Ingrese el (los) nombre(s) </label>
+                    <label for="nom_emp" class="josefin"> Ingrese el (los) nombre(s) </label>
                     <br>
-                    <input type="text" id="nombre" name="nombre">
+                    <input type="text" id="nom_emp" name="nom_emp">
                 </div>
 
                 <div>
                     <br>
-                    <label for="apellidos" class="josefin"> Ingrese los apellidos </label>
+                    <label for="ape_emp" class="josefin"> Ingrese los apellidos </label>
                     <br>
-                    <input type="text" id="apellidos" name="apellidos">
+                    <input type="text" id="ape_emp" name="ape_emp">
                 </div>
 
                 <div>
                     <br>
-                    <label for="fecha" class="josefin"> Ingresa la fecha de nacimiento </label>
+                    <label for="fnac_emp" class="josefin"> Ingresa la fecha de nacimiento </label>
                     <br>
-                    <input type="date" id="fecha" name="fecha">
+                    <input type="date" id="fnac_emp" name="fnac_emp">
                 </div>
 
                 <div>
                     <br>
-                    <label for="sexo" class="josefin"> Ingrese el sexo </label>
+                    <label for="sexo_emp" class="josefin"> Ingrese el sexo </label>
                     <br>
-                    <select class="form-select" aria-label="Seleccione el sexo" id="sel">
+                    <select class="form-select" aria-label="Seleccione el sexo" id="sexo_emp">
                         <option selected>Seleccione el sexo</option>
                         <option value="1">Hombre</option>
                         <option value="2">Mujer</option>
@@ -55,44 +55,44 @@
 
                 <div>
                     <br>
-                    <label for="domicilio" class="josefin"> Ingrese el domicilio </label>
+                    <label for="dom_emp" class="josefin"> Ingrese el domicilio </label>
                     <br>
-                    <input type="text" id="domicilio" name="domicilio">
+                    <input type="text" id="dom_emp" name="dom_emp">
                 </div>
 
                 <div>
                     <br>
-                    <label for="correo" class="josefin"> Ingrese el correo electónico </label>
+                    <label for="cor_emp" class="josefin"> Ingrese el correo electónico </label>
                     <br>
-                    <input type="email" id="correo" name="correo">
+                    <input type="email" id="cor_emp" name="cor_emp">
                 </div>
 
                 <div>
                     <br>
-                    <label for="contraseña" class="josefin"> Ingrese la contraseña </label>
+                    <label for="cont_emp" class="josefin"> Ingrese la contraseña </label>
                     <br>
-                    <input type="text" id="contraseña" name="contraseña">
+                    <input type="text" id="cont_emp" name="cont_emp">
                 </div>
 
                 <div>
                     <br>
-                    <label for="telefono" class="josefin"> Ingrese el teléfono </label>
+                    <label for="tel_emp" class="josefin"> Ingrese el teléfono </label>
                     <br>
-                    <input type="text" id="telefono" name="telefono">
+                    <input type="text" id="tel_emp" name="tel_emp">
                 </div>
 
                 <div>
                     <br>
-                    <label for="idocupacion" class="josefin"> Ingrese el id de la ocupación </label>
+                    <label for="id_ocup" class="josefin"> Ingrese el id de la ocupación </label>
                     <br>
-                    <input type="number" id="idocupacion" name="idocupacion">
+                    <input type="number" id="id_ocup" name="id_ocup">
                 </div>
 
                 <div>
                     <br>
-                    <label for="idturno" class="josefin"> Ingrese el id del turno </label>
+                    <label for="id_turn" class="josefin"> Ingrese el id del turno </label>
                     <br>
-                    <input type="number" id="idturno" name="idturno">
+                    <input type="number" id="id_turn" name="id_turn">
                 </div>
 
                 <br>
