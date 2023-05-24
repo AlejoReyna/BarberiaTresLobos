@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pagos </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <ul class="navbar-items">
+
+            <div class="logo">
+                <li> <a href="../Inicio/index.html"> <span class="bebas"> Tres Lobos </span> </a> </li>
+            </div>
+
+            <div class="user-buttons">
+                <li> <a href="../Registrarse/registro.html">  Registrarse  </a> </li> <!-- PTM YA PUDE ARREGLAR LA RUTA DESPUES DE 2 HORAS-->
+                <li> <a href="../IniciarSesion/login.html">  Iniciar sesión  </a> </li>
+            </div>
+            
+
+        </ul>
+
+      </nav>
+
+      <main>
+
+        <div class="form-container">
+
+            <form action="" method="post">
+
+                <div class="fields-container">
+
+                    <div>
+                        <h1 class="bebas"> Pago con tarjeta </h1>
+                        <hr>
+                    </div>
+
+                    <div class="field">
+                    
+                        <label for="card-name">
+                            <p> Titular de la cuenta </p> 
+                            <input type="text" id="card-name" name="card-name" required>
+                        </label>
+
+                    </div>
+
+                    <div class="field">
+                    
+                        <label for="adress">
+                            <p> Dirección </p> 
+                            <input type="text" id="adress" name="addres" required>
+                        </label>
+
+                    </div>
+
+                    <div class="field">
+                    
+                        <label for="card-num">
+                            <p> Ingresa los dígitos de tu tarjeta </p> 
+                            <input type="text" id="bank-card" name="bank-card" required pattern="[0-9]{16}">
+                        </label>
+
+                    </div>
+
+                    <div class="field">
+                    
+                        <label for="card-date">
+                            <p> Fecha de expiración </p> 
+                            <input type="month" id="card-date" name="card-date" required>
+                        </label>
+
+                    </div>
+
+                    <div class="field">
+                    
+                        <label for="CVV">
+                            <p> CVV </p> 
+                            <input type="text" id="cvv" name="cvv" required pattern="[0-9]{3}">
+                        </label>
+
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <button type="submit" style="width: 50px;">Pagar</button>
+                    </div>
+
+                    <div class="icons">
+                        <br>
+                        <p> Aceptamos </p>
+            
+                        <ul class="card-icons"> 
+                            <li> <img src="Imagenes/visa.png" alt="Visa" class="card-icon"> </li>
+                            <li> <img src="Imagenes/mastercar.png" alt="Mastercard" class="card-icon"> </li>
+                            <li> <img src="Imagenes/amex.png" alt="American Express" class="card-icon"> </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+
+        
+      </main>
+
+
+</body>

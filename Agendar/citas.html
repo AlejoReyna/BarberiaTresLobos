@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <ul class="navbar-items">
+
+            <div class="logo">
+                <li  class="bebas"> <a>  Bienvenido </span> </a> </li>
+            </div>
+
+            <div class="user-buttons">
+                <li> <a href="../Inicio/index.html"> Volver a inicio </a> </li> <!-- PTM YA PUDE ARREGLAR LA RUTA DESPUES DE 2 HORAS-->
+                
+            </div>
+            
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <div class="form-container">
+            <form action="">
+              
+                <div class="fields-container">
+
+                    <div class="header">
+                   
+                        <h1 class="bebas"> Citas </h1>
+                            <hr> 
+                            <br>
+                        <h4 class="josefin" id="sub"> ¿En qué fecha te gustaría vistarnos? </h4> 
+            
+                    </div>
+
+                    <div class="field">
+                        <br>
+                        <label for="fechacita" class="josefin"> <p> Ingresa la fecha </p> </label>
+                        <br>
+                        <input type="date" id="fechacita" name="fechacita">
+                    </div>
+
+                    <div class="field">
+                        <br>
+                        <label for="horacita" class="josefin"> <p> Ingrese la hora </p> </label>
+                        <br>
+                        <input type="time" id="horacita" name="horacita">
+                    </div> 
+
+                    <div class="field">
+                        <br>
+                        <label for="idcliente" class="josefin"> <p> Ingrese el id del cliente </p> </label>
+                        <br>
+                        <input type="number" id="idcliente" name="idcliente">
+                    </div>
+        
+                    <div class="field">
+                        <br>
+                        <label for="idservicio" class="josefin"> <p> Ingrese el id del servicio </p> </label>
+                        <br>
+                        <input type="number" id="idservico" name="idservicio">
+                    </div>
+                    
+                    <div >
+                        <ul class="submit-buttons">
+
+                            <li>
+                                
+                               <!-- NOTA PARA EL CRACK-MÁQUINA-PIOLA QUE ARREGLE ESTO: 
+                                    El siguiente botón tiene que hacer que al hacer click vaya la sección de pago.
+                                    
+                                    Saludos. Al chile me hubiera metido a Facpya.
+                                -->
+                                <input type="submit" value="Agendar" onclick="redirectToURL('../Pago/pago.html')">
+                                
+                            </li>
+                            
+                            <li>
+                                <input type="submit" value="Editar Registro">
+                            </li> 
+
+                            <li> 
+                                <input type="submit" value="Borrar Registro">
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <br>
+
+                    
+            </form>
+        </div>
+
+    </main>
+
+
+
+</body>
+
+</html>
+
+</body>
