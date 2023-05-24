@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="form-container">
+            <form action="">
+                <div class="header">
+                   
+                        <h1 class="josefin"> Ocupación </h1>
+                            <hr> 
+                        <h4 class="josefin" id="sub"> Aquí se describen los trabajos de la peluquería. </h4> 
+            
+                </div>
+
+                <div>
+                    <br>
+                    <label for="nom_ocup" class="josefin"> Ingrese el nombre de la ocupación </label>
+                    <br>
+                    <select class="form-select" aria-label="Seleccione la ocupación" id="nom_ocup">
+                        <option selected>Seleccione la ocupación</option>
+                        <option value="1">Administrador</option>
+                        <option value="2">Cortador de pelo</option>
+                        <option value="3">Maquillador</option>
+                        <option value="4">Tintes</option>
+                        <option value="5">Otro</option>
+                    </select>
+                </div>
+
+                <div>
+                    <br>
+                    <label for="desc_ocup" class="josefin"> Ingrese la descripción </label>
+                    <br>
+                    <textarea name="desc_ocup" id="desc_ocup" rows="8" cols="30"></textarea>
+                </div> 
+
+                <div>
+                    <br>
+                    <label for="cant_ocup" class="josefin"> Ingrese la cantidad de empleados por trabajo </label>
+                    <br>
+                    <input type="number" id="cant_ocup" name="cant_ocup">
+                </div> 
+    
+                <div>
+                    <br>
+                    <label for="sal_ocup" class="josefin"> Ingrese el salario por semana </label>
+                    <br>
+                    <input type="number" step="0.01" id="sal_ocup" name="sal_ocup">
+                </div>
+
+                <br>
+
+                <input type="submit" value="Enviar Registro"> <input type="submit" value="Editar Registro"> <input type="submit" value="Borrar Registro">
+            </form>
+        </div>
+
+    </main>
+
+
+
+</body>
+
+</html>
+
+</body>

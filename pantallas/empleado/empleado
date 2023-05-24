@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="form-container">
+            <form action="">
+                <div class="header">
+                   
+                        <h1 class="josefin"> Empleados </h1>
+                            <hr> 
+                        <h4 class="josefin" id="sub"> Registro de todos los empleados de la peluquería. </h4> 
+            
+                </div>
+
+                <div>
+                    <br>
+                    <label for="nom_emp" class="josefin"> Ingrese el (los) nombre(s) </label>
+                    <br>
+                    <input type="text" id="nom_emp" name="nom_emp">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="ape_emp" class="josefin"> Ingrese los apellidos </label>
+                    <br>
+                    <input type="text" id="ape_emp" name="ape_emp">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="fnac_emp" class="josefin"> Ingresa la fecha de nacimiento </label>
+                    <br>
+                    <input type="date" id="fnac_emp" name="fnac_emp">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="sexo_emp" class="josefin"> Ingrese el sexo </label>
+                    <br>
+                    <select class="form-select" aria-label="Seleccione el sexo" id="sexo_emp">
+                        <option selected>Seleccione el sexo</option>
+                        <option value="1">Hombre</option>
+                        <option value="2">Mujer</option>
+                    </select>
+                </div>
+
+                <div>
+                    <br>
+                    <label for="dom_emp" class="josefin"> Ingrese el domicilio </label>
+                    <br>
+                    <input type="text" id="dom_emp" name="dom_emp">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="cor_emp" class="josefin"> Ingrese el correo electónico </label>
+                    <br>
+                    <input type="email" id="cor_emp" name="cor_emp">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="cont_emp" class="josefin"> Ingrese la contraseña </label>
+                    <br>
+                    <input type="text" id="cont_emp" name="cont_emp">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="tel_emp" class="josefin"> Ingrese el teléfono </label>
+                    <br>
+                    <input type="text" id="tel_emp" name="tel_emp">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="id_ocup" class="josefin"> Ingrese el id de la ocupación </label>
+                    <br>
+                    <input type="number" id="id_ocup" name="id_ocup">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="id_turn" class="josefin"> Ingrese el id del turno </label>
+                    <br>
+                    <input type="number" id="id_turn" name="id_turn">
+                </div>
+
+                <br>
+
+                <input type="submit" value="Enviar Registro"> <input type="submit" value="Editar Registro"> <input type="submit" value="Borrar Registro">
+            </form>
+        </div>
+
+    </main>
+
+
+
+</body>
+
+</html>
+
+</body>

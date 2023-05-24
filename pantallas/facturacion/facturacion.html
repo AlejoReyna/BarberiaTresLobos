@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="form-container">
+            <form action="">
+                <div class="header">
+                   
+                        <h1 class="josefin"> Faturación </h1>
+                            <hr> 
+                        <h4 class="josefin" id="sub"> Aquí se imprime el recibo de la venrta. </h4> 
+            
+                </div>
+
+                <div>
+                    <br>
+                    <label for="fec_fact" class="josefin"> Ingresa la fecha </label>
+                    <br>
+                    <input type="date" id="fec_fact" name="fec_fact">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="hor_fact" class="josefin"> Ingrese la hora </label>
+                    <br>
+                    <input type="time" id="hor_fact" name="hor_fact">
+                </div> 
+
+                <div>
+                    <br>
+                    <label for="tipo_fact" class="josefin"> Ingrese el tipo de pago </label>
+                    <br>
+                    <select class="form-select" aria-label="Seleccione el tipo de pago" id="tipo_fact">
+                        <option selected>Seleccione la ocupación</option>
+                        <option value="1">Pago en línea</option>
+                        <option value="2">Tarjeta de crédito</option>
+                        <option value="3">Efectivo</option>
+                        <option value="4">Otro</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <br>
+                    <label for="id_ven" class="josefin"> Ingrese el id de la venta </label>
+                    <br>
+                    <input type="number" id="id_ven" name="id_ven">
+                </div>
+
+                <div>
+                    <br>
+                    <label for="id_cli" class="josefin"> Ingrese el id del cliente </label>
+                    <br>
+                    <input type="number" id="id_cli" name="id_cli">
+                </div>
+
+                <br>
+
+                <input type="submit" value="Generar Factura">
+            </form>
+        </div>
+
+    </main>
+
+
+
+</body>
+
+</html>
+
+</body>
