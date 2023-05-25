@@ -122,9 +122,12 @@ a {
 .container-two .left {
     grid-column: 1;
     height: 900px;
-    
+    font-family: 'Roboto Slab', serif;
 }
 
+.container-two .left p {
+    margin-top: 10px;
+}
 
 .header {
     width: 400px;
@@ -138,6 +141,7 @@ a {
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    margin-top: 20%;
 }
 
 
