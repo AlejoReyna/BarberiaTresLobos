@@ -11,7 +11,7 @@ The functionalities include:
 
 <p align="center"> <em> You can see the docs here: </em> </p>
 
-[BKMACBED-DOCS.pdf](https://github.com/AlejoReyna/BarbershopSystem/files/11740458/BKMACBED-DOCS.pdf)
+[BKMACBED-DOCS.pdf](https://github.com/AlejoReyna/BarbershopSystem/files/11740468/BKMACBED-DOCS.pdf)
 
 
 <h3 align="center"> Special thanks to: </h3>
