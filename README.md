@@ -17,3 +17,4 @@ The functionalities include:
 + Kevin Edgardo Martinez Rodriguez - Responsable of software documentation and translation.
 + Alexis Alberto Reyna Sánchez <em> (AlejoReyna) </em> - Front-End Developer
 
+Future task: Migrate it to react! - Alexis
