@@ -9,6 +9,11 @@ The functionalities include:
 + Select services
 + Recieve a ticket
 
+<p align="center"> <em> You can see the docs here: </em> </p>
+
+ [EQ4-BKMACBED-TPOO-J-M5M6-EJ23-ENGLISH.pdf](https://github.com/AlejoReyna/BarbershopSystem/files/11740415/EQ4-BKMACBED-TPOO-J-M5M6-EJ23-ENGLISH.pdf) 
+
+
 <h3 align="center"> Special thanks to: </h3>
 
 + Brayant Antonio Flores Gutierrez <em> (Brayant17) </em> - Back-End Developer
